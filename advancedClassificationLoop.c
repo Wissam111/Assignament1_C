@@ -27,7 +27,7 @@ int power(int a , int b){
     if (b % 2 == 0)
         return power(a, b / 2) * power(a, b / 2);
     return a * power(a, b / 2) * power(a, b / 2);
-
+ //p
 }
 
 
