@@ -18,6 +18,8 @@ int isArmstrongHel(int num , int p){
 
 }
 
+
+
 int isArmstrong(int num){
    
   int p  =0;
@@ -26,7 +28,7 @@ int isArmstrong(int num){
     while(temp!=0){
         p++;
         temp/=10;
-        
+       
     }
    
    if(isArmstrongHel(num , p) == num) return 1;
