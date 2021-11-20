@@ -2,7 +2,7 @@
 #include "NumClass.h"
 #include<math.h>
 
-
+//p
 int main(){
 
 
